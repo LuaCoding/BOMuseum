@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background-color: navy;
+    height: 60px;
+}
+
+body{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: aliceblue;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+}
+
+footer > p{
+    width: 60vw;
+    margin: 0 auto;
+    padding-left: 40px;
+}
+
+@media screen and (max-width:1000px) {
+    article{
+        width: 80vw;
+    }
+    footer > p{
+        width: 80vw;
+    }
+    img:hover{
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size: 16px;
+    }
+    article{
+        width: 100vw;
+        padding: 20px;
+    }
+    h1{
+        font-size: 180%;
+    }
+    footer > p{
+        width: 100vw;
+        padding-left: 20px;
+    }
+}
