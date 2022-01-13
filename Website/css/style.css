@@ -97,6 +97,15 @@ footer > p{
     padding-left: 40px;
 }
 
+.footer{
+    height: 5vw;
+    color: white;
+}
+
+#img__tentoonstelling{
+    margin-bottom: 20px;
+}
+
 .top{
     width: 80px;
     height: 80px;
@@ -109,6 +118,23 @@ footer > p{
     position: fixed;
     bottom: 120px;
     right: 120px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    width: 160px;
+    height: 80px;
+    background-color: #222831;
+    border: none;
+    font-size: 150%;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    left: 5%;
     text-decoration: none;
     display: flex;
     justify-content: center;
