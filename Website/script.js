@@ -9,13 +9,13 @@ let sliders = [
         "image":"img/scheepsvaartmuseum.jpg"
     },
     {
-        "image":"img/HSM De Jachtmodellen credit Twycer.jpg"
+        "image":"img/header tentoonstellingsruimte_RAZ.jpg"
     },
     {
         "image":"img/vr.jpg"
     },
     {
-        "image":"img/wiWillem van de Velde & Zoon.jpeg"
+        "image":"img/architectuur.jpg"
     },
 ];
 
