@@ -8,7 +8,7 @@ currentImg = nextImg - 1;
 prevImg = 0;
 
 function next(){
-    if (nextImg < 0 || nextImg > 30){
+    if (nextImg < 1 || nextImg > 30){
         console.log("Called image does not exist");
     }
     else if (tourImg.src != "img" + currentImg + ".png"){
@@ -28,7 +28,7 @@ function next(){
 }
 
 function prev(){
-    if (prevImg < 0 || prevImg > 30){
+    if (prevImg < 1 || prevImg > 30){
         console.log("Called image does not exist");
     }
     else if (tourImg.src != "img" + currentImg + ".png"){
