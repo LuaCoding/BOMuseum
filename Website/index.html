@@ -23,21 +23,28 @@
         </nav>
     </header>
     <article>
-        <div id="container">
-            <h3>Tour</h3>
-            <img id="myImg" src="img/1.jpg" height="600px" alt="foto sb">
+        <div id="tour">
+            <h1>Interactieve tour</h1>
+            <p>
+                Stap in een virtuele tour door het Scheepvaartmuseum.
+            </p>
+            <img id="tourImage" src="img/1.png">
+            <button id="prevBtn" onclick="prev()">Vorige</button>
+            <button id="nextBtn" onclick="next()">Volgende</button>
+            <p id="imgLbl">1/30</p>
         </div>
+        <script type="text/javascript" src="tourHandler.js"></script>
     </article>
-            <div id="slideshow">
-                <img id="slide" src="img/amsterdamse-haven_0.jpg" width="100%" height="600px" alt="Haven van amsterdam">
-                <nav>
-                    <button onclick="show(0)"></button>
-                    <button onclick="show(1)"></button>
-                    <button onclick="show(2)"></button>
-                    <button onclick="show(3)"></button>
-                    <button onclick="show(4)"></button>
-                </nav>
-            </div>
+    <div id="slideshow">
+        <img id="slide" src="img/amsterdamse-haven_0.jpg" alt="Haven van amsterdam">
+        <nav>
+            <button onclick="show(0)"></button>
+            <button onclick="show(1)"></button>
+            <button onclick="show(2)"></button>
+            <button onclick="show(3)"></button>
+            <button onclick="show(4)"></button>
+        </nav>
+    </div>
     <article>
         <h3 id="Tentoonstelling">
             Amsterdamse Havenstad
@@ -83,14 +90,14 @@
         </a><button id="TicketKnop">Koop nu hier je tickets!</button>
         <h3>Reviews</h3>
         <p>
-            Philip B zegt: 
+            <strong>Philip B:</strong>
             “Hier ben je voor een volledige dag zoet, heel goed ingericht, 
             belicht alle aspecten van de scheepvaart en van de gouden periode. O
             ok het bezoek aan de replica van het schip Amsterdam aan de steiger is een toppunt.” 
             5 sterren
         </p>
         <p>
-            Arthur v zegt: 
+            <strong>Arthur V:</strong> 
             “Een erg leuk museum met een mooie en interessante collectie. 
             Het geeft een goed beeld van de historie van de scheepvaart in Nederland. 
             Vooral de schepen buiten zijn ook erg leuk om te bezoeken.” 

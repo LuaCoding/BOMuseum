@@ -23,12 +23,17 @@
         </nav>
     </header>
     <article>
-        <figure>
-            <img src="img/architectuur.jpg" alt="het interieurvan scheepvaartmuseum">
-            <figcaption>
-                The interior of the Maritime Museum
-            </figcaption>
-        </figure>
+        <div id="tour">
+            <h1>Interactive tour</h1>
+            <p>
+                Step into the virtual tour of the Dutch Scheepvaartmeuseum.
+            </p>
+            <img id="tourImage" src="img/1.png">
+            <button id="prevBtn" onclick="prev()">Previous</button>
+            <button id="nextBtn" onclick="next()">Next</button>
+            <p id="imgLbl">1/30</p>
+        </div>
+        <script type="text/javascript" src="tourHandler.js"></script>
     </article>
     <div id="slideshow">
         <img id="slide" src="img/amsterdamse-haven_0.jpg" alt="port of Amsterdam">
