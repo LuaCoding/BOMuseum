@@ -8,11 +8,11 @@ currentImg = nextImg - 1;
 prevImg = 0;
 
 function next(){
-    if (nextImg == 31){
+    if (nextImg < 0 || nextImg > 30){
         console.log("Called image does not exist");
     }
     else if (tourImg.src != "img" + currentImg + ".png"){
-        tourImg.src = tourImg.src = "img/" + nextImg + ".png";
+        tourImg.src = "img/" + nextImg + ".png";
         nextImg = nextImg + 1;
         currentImg = nextImg - 1;
         prevImg = prevImg + 1;
@@ -28,22 +28,14 @@ function next(){
 }
 
 function prev(){
-    if (prevImg == 0){
+    if (prevImg < 0 || prevImg > 30){
         console.log("Called image does not exist");
     }
-
     else if (tourImg.src != "img" + currentImg + ".png"){
-        tourImg.src = tourImg.src = "img/" + prevImg + ".png";
+        tourImg.src = "img/" + prevImg + ".png";
         nextImg = nextImg - 1;
         currentImg = nextImg - 1;
         prevImg = prevImg - 1;
-        imgLbl.textContent = currentImg + "/30";
-    }
-    else if (tourImg.src != "img/" + 0 && 30 + ".png"){
-        tourImg.src = "img/1.png";
-        nextImg = 2;
-        currentImg = nextImg - 1;
-        prevImg = 0;
         imgLbl.textContent = currentImg + "/30";
     }
     else{
