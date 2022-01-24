@@ -7,18 +7,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="../css/style.css">
     <title>⚓The Maritime Museum⚓</title>
 </head>
 <body class="light">
     <header id="header">
         <nav>
             <ul>
-                <li><a href="English.html">Home</a></li>
-                <li><a href="TentoonstellingenENG.html">Exhibitions</a></li>
+                <li><a href="../en/">Home</a></li>
+                <li><a href="../tentoonstellingen-en/">Exhibitions</a></li>
                 <li><a href="https://tickets.hetscheepvaartmuseum.nl/nl/tickets">Tickets</a></li>
                 <li><a href="#Geschiedenis">History</a></li>
-                <li><a href="index.html">🇳🇱 </a></li>
+                <li><a href="../">🇳🇱 </a></li>
                 <li><a id="moon" onclick="darkToggle()">☀️</a></li>
             </ul>
         </nav>
@@ -29,15 +29,14 @@
             <p>
                 Step into the virtual tour of the Dutch Scheepvaartmeuseum.
             </p>
-            <img id="tourImage" src="img/1.png">
-            <button id="prevBtn" onclick="prev()">Previous</button>
-            <button id="nextBtn" onclick="next()">Next</button>
+            <img id="tourImage" src="../img/1.png">
+            <button id="prevBtn" onclick="prev()">Backwards</button>
+            <button id="nextBtn" onclick="next()">Forwards</button>
             <p id="imgLbl">1/30</p>
         </div>
-        <script type="text/javascript" src="tourHandler.js"></script>
     </article>
     <div id="slideshow">
-        <img id="slide" src="img/amsterdamse-haven_0.jpg" height="600px" alt="port of Amsterdam">
+        <img id="slide" src="../img/amsterdamse-haven_0.jpg" height="600px" alt="port of Amsterdam">
         <nav>
             <button onclick="show(0)"></button>
             <button onclick="show(1)"></button>
@@ -54,7 +53,7 @@
             The Amsterdam port city exhibition shows the age-old relationship between the port and the city,
             from the moment a dam was built in the Amstel until the future.
         </p>
-        <img src="img/amsterdamse-haven_0.jpg" height="600" width="1000" alt="history of the port of Amsterdam" id="img__tentoonstelling">
+        <img src="../img/amsterdamse-haven_0.jpg" height="600" width="1000" alt="history of the port of Amsterdam" id="img__tentoonstelling">
         <h3>
             The story of the whale
         </h3>
@@ -63,7 +62,7 @@
             shows how we have watched the whale through the ages.
             You will learn about whaling and how it has made whales an endangered species.
         </p>
-        <img src="img/HSM bezoekers in de tentoonstelling Het verhaal van de walvis credit Twycer 3.jpg" height="600" width="1000" alt="picture of the story of the whale" id="img__tentoonstelling">
+        <img src="../img/HSM bezoekers in de tentoonstelling Het verhaal van de walvis credit Twycer 3.jpg" height="600" width="1000" alt="picture of the story of the whale" id="img__tentoonstelling">
         <h3>
             Willem van de Velde & Zoon
         </h3>
@@ -71,7 +70,7 @@
             The Maritime Museum presents a unique large retrospective about father and son Willem van de Velde,
             two leading sea painters in the seventeenth century, each with their own specialism: pen painting and oil painting.
         </p>
-        <img src="img/wiWillem van de Velde & Zoon.jpeg" height="600" width="1000" alt="picture of Willem van de Velde & Zoon" id="img__tentoonstelling">
+        <img src="../img/wiWillem van de Velde & Zoon.jpeg" height="600" width="1000" alt="picture of Willem van de Velde & Zoon" id="img__tentoonstelling">
         <h3>
             Main Gallery: Republic by the Sea
         </h3>
@@ -80,12 +79,12 @@
             On the basis of more than 50 masterpieces, the exhibition tells the story of the Republic in the 17th and 18th centuries.
             The Main Gallery is the starting point for a museum visit.
         </p>
-        <img src="img/header tentoonstellingsruimte_RAZ.jpg" height="600" width="1000" alt="Mainroom for the exhibitions" id="img__tentoonstelling">
+        <img src="../img/header tentoonstellingsruimte_RAZ.jpg" height="600" width="1000" alt="Mainroom for the exhibitions" id="img__tentoonstelling">
         <h3>
             More Exhibitions
         </h3>
         <p>
-            <a href="TentoonstellingenENG.html">Click Here</a>
+            <a href="../tentoonstellingen-en/">Click Here</a>
         </p>
         <h3>Reviews</h3>
         <p>
@@ -112,7 +111,7 @@
         </p>
     </article>
         <a class="top" href="#header">Top</a>
-        <a class="contact" href="contactENG.html">Contact</a>
+        <a class="contact" href="../contact-en/">Contact</a>
         <footer class="footer">
             <p>
              museum | tuesday t/m sunday 10.00 - 17.00 uur <br>
@@ -120,7 +119,8 @@
              library | tuesday t/m sunday 10.00 - 17.00 uur <br>
             </p>
      </footer>
-     <script src="script.js"></script>
-     <script src="darkmode.js"></script>
+     <script src="../js/tourHandler-en.js"></script>
+     <script src="../js/imageSlider-en.js"></script>
+     <script src="../js/darkmode.js"></script>
 </body>
 </html>

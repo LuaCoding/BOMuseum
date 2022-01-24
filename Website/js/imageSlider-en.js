@@ -4,19 +4,19 @@ const slide = document.getElementById('slide');
 
 let sliders = [
     {
-        "image":"img/amsterdamse-haven_0.jpg"
+        "image":"../img/amsterdamse-haven_0.jpg"
     },
     {
-        "image":"img/scheepsvaartmuseum.jpg"
+        "image":"../img/scheepsvaartmuseum.jpg"
     },
     {
-        "image":"img/header tentoonstellingsruimte_RAZ.jpg"
+        "image":"../img/header tentoonstellingsruimte_RAZ.jpg"
     },
     {
-        "image":"img/vr.jpg"
+        "image":"../img/vr.jpg"
     },
     {
-        "image":"img/architectuur.jpg"
+        "image":"../img/architectuur.jpg"
     },
 ];
 
