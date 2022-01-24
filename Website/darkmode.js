@@ -3,7 +3,7 @@ function darkToggle() {
     var element = document.body;
     element.classList.toggle("dark");
     element.classList.toggle("light");
-    if (element.classList.contains("dark")) {
+    if (element.classList.contains("light")) {
         moonsun.textContent = "☀️";
     }
     else{
