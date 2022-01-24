@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/style.css">
     <title>⚓Het Scheepvaart Museum⚓</title>
 </head>
-<body>
+<body class="light">
     <header id="header" class="myHeader">
         <nav>
             <ul>
@@ -19,6 +19,7 @@
                 <li><a href="https://tickets.hetscheepvaartmuseum.nl/nl/tickets">Tickets</a></li>
                 <li><a href="#Geschiedenis">Geschiedenis</a></li>
                 <li><a href="English.html">🇬🇧 </a></li>
+                <li><a id="moon" onclick="darkToggle()">🌙</a></li>
             </ul>
         </nav>
     </header>
@@ -33,7 +34,7 @@
             <button id="nextBtn" onclick="next()">Vooruit</button>
             <p id="imgLbl">1/30</p>
         </div>
-        <script type="text/javascript" src="tourHandler.js"></script>
+        <script src="tourHandler.js"></script>
     </article>
     <div id="slideshow">
         <img id="slide" src="img/amsterdamse-haven_0.jpg" height="600px" alt="Haven van amsterdam">
@@ -87,7 +88,11 @@
             <a href="Tentoonstellingen.html">Klik hier</a>
         </p>
         <h3>Tickets</h3>
+<<<<<<< Updated upstream
         <button onclick="window.location.href='https://tickets.hetscheepvaartmuseum.nl/nl/tickets';" id="TicketKnop">Koop nu hier je tickets!</button>
+=======
+        <button onclick="window.location.href='https://tickets.hetscheepvaartmuseum.nl/nl/tickets';" id="TicketKnop">Koop nu hier je tickets!</button>
+>>>>>>> Stashed changes
         <h3>Reviews</h3>
         <p>
             <strong>Philip B:</strong>
@@ -122,6 +127,7 @@
             bibliotheek | dinsdag t/m vrijdag 10.00 - 17.00 uur <br>
            </p>
     </footer>
-    <script src="script.js"></script>
+    <script src="script.js"></script>\
+    <script src="darkmode.js"></script>
 </body>
 </html>

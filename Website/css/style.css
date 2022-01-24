@@ -216,18 +216,6 @@ footer > p{
     align-items: center;
 }
 
-#tour h1{
-    color:black;
-}
-
-#tour h3{
-    color:black;
-}
-
-#tour p{
-    color:black;
-}
-
 #tour input{
     margin-right:20px;
     margin-top:30px;
@@ -240,4 +228,14 @@ footer > p{
     width:  100%;
     height: 600px;
     object-fit: cover;
+}
+
+.dark{
+    background:#0e1111;
+    color:white;
+}
+
+#moon{
+    user-select: none;
+    cursor: pointer;
 }
