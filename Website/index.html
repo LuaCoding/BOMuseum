@@ -7,18 +7,18 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="./css/style.css">
     <title>⚓Het Scheepvaart Museum⚓</title>
 </head>
 <body class="light">
     <header id="header" class="myHeader">
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Tentoonstellingen.html">Tentoonstellingen</a></li>
+                <li><a href="./">Home</a></li>
+                <li><a href="./tentoonstellingen/">Tentoonstellingen</a></li>
                 <li><a href="https://tickets.hetscheepvaartmuseum.nl/nl/tickets">Tickets</a></li>
                 <li><a href="#Geschiedenis">Geschiedenis</a></li>
-                <li><a href="English.html">🇬🇧 </a></li>
+                <li><a href="./en/">🇬🇧 </a></li>
                 <li><a id="moon" onclick="darkToggle()">☀️</a></li>
             </ul>
         </nav>
@@ -29,15 +29,14 @@
             <p>
                 Stap in een virtuele tour door het Scheepvaartmuseum.
             </p>
-            <img id="tourImage" src="img/1.png">
+            <img id="tourImage" src="./img/1.png">
             <button id="prevBtn" onclick="prev()">Achteruit</button>
             <button id="nextBtn" onclick="next()">Vooruit</button>
             <p id="imgLbl">1/30</p>
         </div>
-        <script src="tourHandler.js"></script>
     </article>
     <div id="slideshow">
-        <img id="slide" src="img/amsterdamse-haven_0.jpg" height="600px" alt="Haven van amsterdam">
+        <img id="slide" src="./img/amsterdamse-haven_0.jpg" height="600px" alt="Haven van amsterdam">
         <nav>
             <button onclick="show(0)"></button>
             <button onclick="show(1)"></button>
@@ -54,7 +53,7 @@
             De tentoonstelling Amsterdam havenstad laat de eeuwenoude relatie tussen de haven en de stad zien, 
             vanaf het moment dat een dam in de Amstel werd aangelegd tot in de toekomst.
         </p>
-        <img src="img/amsterdamse-haven_0.jpg" height="600" width="1000" alt="geschiedenis van de Haven van Amsterdam" id="img__tentoonstelling">
+        <img src="./img/amsterdamse-haven_0.jpg" height="600" width="1000" alt="geschiedenis van de Haven van Amsterdam" id="img__tentoonstelling">
         <h3>
             Het verhaal van de Walvis
         </h3>
@@ -63,7 +62,7 @@
             laat zien hoe we door de eeuwen heen naar de walvis hebben gekeken. 
             Je leert over de walvisjacht en hoe deze de walvis tot een bedreigde diersoort heeft gemaakt.
         </p>
-        <img src="img/HSM bezoekers in de tentoonstelling Het verhaal van de walvis credit Twycer 3.jpg" height="600" width="1000" alt="Foto van het verhaal van de walvis" id="img__tentoonstelling">
+        <img src="./img/HSM bezoekers in de tentoonstelling Het verhaal van de walvis credit Twycer 3.jpg" height="600" width="1000" alt="Foto van het verhaal van de walvis" id="img__tentoonstelling">
         <h3>
             Willem van de Velde & Zoon
         </h3>
@@ -71,7 +70,7 @@
             Het Scheepvaartmuseum presenteert een unieke grote overzichtstentoonstelling over vader en zoon Willem van de Velde, 
             twee toonaangevende zeeschilders in de zeventiende eeuw met elk een eigen specialisme: penschilderij en olieverfschilderij. 
         </p>
-        <img src="img/wiWillem van de Velde & Zoon.jpeg" height="600" width="1000" alt="foto van Willem van de Velde & Zoon" id="img__tentoonstelling">
+        <img src="./img/wiWillem van de Velde & Zoon.jpeg" height="600" width="1000" alt="foto van Willem van de Velde & Zoon" id="img__tentoonstelling">
         <h3>
             Hoofdgalerij: republiek aan zee
         </h3>
@@ -80,12 +79,12 @@
             Aan de hand van ruim 50 topstukken vertelt de tentoonstelling het verhaal van de Republiek in de 17e en 18e eeuw. 
             De Hoofdgalerij is het startpunt van een museumbezoek. 
         </p>
-        <img src="img/header tentoonstellingsruimte_RAZ.jpg" height="600" width="1000" alt="Hoofdruimte van de Tentoonstellingen" id="img__tentoonstelling">
+        <img src="./img/header tentoonstellingsruimte_RAZ.jpg" height="600" width="1000" alt="Hoofdruimte van de Tentoonstellingen" id="img__tentoonstelling">
         <h3>
             Meer Tentoonstellingen
         </h3>
         <p>
-            <a href="Tentoonstellingen.html">Klik hier</a>
+            <a href="./tentoonstellingen/">Klik hier</a>
         </p>
         <h3>Tickets</h3>
         <button onclick="window.location.href='https://tickets.hetscheepvaartmuseum.nl/nl/tickets';" id="TicketKnop">Koop nu hier je tickets!</button>
@@ -115,7 +114,7 @@
         </p>
     </article>
         <a class="top" href="#header">Top</a>
-        <a class="contact" href="contact.html">Contact</a>
+        <a class="contact" href="./contact/">Contact</a>
     <footer class="footer">
            <p>
             museum | dinsdag t/m zondag 10.00 - 17.00 uur <br>
@@ -123,7 +122,8 @@
             bibliotheek | dinsdag t/m vrijdag 10.00 - 17.00 uur
            </p>
     </footer>
-    <script src="script.js"></script>
-    <script src="darkmode.js"></script>
+    <script src="./js/imageSlider.js"></script>
+    <script src="./js/darkmode.js"></script>
+    <script src="./js/tourHandler.js"></script>
 </body>
 </html>
