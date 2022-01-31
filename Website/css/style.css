@@ -239,3 +239,41 @@ footer > p{
     user-select: none;
     cursor: pointer;
 }
+
+#container{
+    background-color: aqua;
+    width: 900px;
+    height: 600px;
+    margin: 120px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: inset 2px teal;
+} 
+
+#myInteraction{
+    padding: 10px;
+}
+
+
+#mapImage{
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+nav button {
+    background-color: teal;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
+
+#knopNoord, #knopZuid{
+    display: block;
+    width: 300px;
+}
+
+#knopWest, #knopOost{
+    display: inline-block;
+    width: 150px;
+}

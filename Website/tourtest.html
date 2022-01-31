@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Silver Bullet</title>
+</head>
+<body>
+    <div id="container">
+        <img id="myImg" src="img/1.png" height="600px" alt="Start">
+        <div id="myInteraction">
+            <div id="mytitle">
+                Locatie
+            </div>
+            <input type="text" id="myinput" autocomplete="off">
+            <input type="button" value="voer in" onclick="getInput()">
+            <h3>Kies welke richting je op wilt:</h3>
+            <nav>
+                <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+                <button id="knopWest" onclick="goDirection('west')">West</button><button id="knopOost" onclick="goDirection('oost')">Oost</button>
+                <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
+            </nav>
+        </div> 
+    </div>
+    <script src="./js/tourtest.js"></script>
+</body>
+</html>
