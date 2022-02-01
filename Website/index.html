@@ -19,7 +19,7 @@
                 <li><a href="https://tickets.hetscheepvaartmuseum.nl/nl/tickets">Tickets</a></li>
                 <li><a href="#Geschiedenis">Geschiedenis</a></li>
                 <li><a href="./en/">🇬🇧 </a></li>
-                <li><a id="moon" onclick="darkToggle()">☀️</a></li>
+                <a id="moon" onclick="darkToggle()">☀️</a>
             </ul>
         </nav>
     </header>
@@ -30,8 +30,10 @@
                 Stap in een virtuele tour door het Scheepvaartmuseum.
             </p>
             <img id="tourImage" src="./img/1.png">
-            <button id="prevBtn" onclick="prev()">Achteruit</button>
-            <button id="nextBtn" onclick="next()">Vooruit</button>
+            <button id="knopNoord" onclick="goDirection('noord')">Noord</button>
+            <button id="knopWest" onclick="goDirection('west')">West</button>
+            <button id="knopOost" onclick="goDirection('oost')">Oost</button>
+            <button id="knopZuid" onclick="goDirection('zuid')">Zuid</button>
             <p id="imgLbl">1/30</p>
         </div>
     </article>

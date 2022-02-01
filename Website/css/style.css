@@ -238,4 +238,7 @@ footer > p{
 #moon{
     user-select: none;
     cursor: pointer;
+    position:fixed;
+    top:15px;
+    right:50px;
 }
