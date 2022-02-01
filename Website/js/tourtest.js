@@ -19,7 +19,7 @@ let current_index = 1;
 let locatie =[
     {
         
-        "img":"./img/1.png",
+        "img":"img/1.png",
         "directions": {"noord": 2 }
     },
     {
