@@ -225,9 +225,10 @@ footer > p{
 
 #tourImage{
     float: left;
-    width:  100%;
+    width:  92%;
     height: 600px;
     object-fit: cover;
+    left:200px;
 }
 
 .dark{
