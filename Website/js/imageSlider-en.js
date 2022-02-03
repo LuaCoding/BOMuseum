@@ -20,7 +20,7 @@ let sliders = [
     },
 ];
 
-function show(index){
+function slider(index){
     slide.src = sliders[index].image;
 }
 
@@ -38,4 +38,4 @@ function myFunction() {
     }
   } 
 
-  show(0);
+  slider(0);
